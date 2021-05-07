@@ -1,0 +1,100 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/acsr/car_project/arduino/as5600_test/include",
+                "/home/acsr/car_project/arduino/as5600_test/src",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                "/home/acsr/car_project/arduino/as5600_test/.pio/libdeps/nano_every/SlowSoftI2CMaster",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/variants/nona4809",
+                "/home/acsr/car_project/arduino/as5600_test/.pio/libdeps/nano_every/SoftI2CMaster/src",
+                "/home/acsr/.platformio/lib/Adafruit BusIO",
+                "/home/acsr/.platformio/lib/Adafruit GFX Library",
+                "/home/acsr/.platformio/lib/Adafruit ST7735 and ST7789 Library",
+                "/home/acsr/.platformio/lib/Adafruit Unified Sensor",
+                "/home/acsr/.platformio/lib/Adafruit seesaw Library",
+                "/home/acsr/.platformio/lib/DHT sensor library",
+                "/home/acsr/.platformio/lib/ESP Async WebServer_ID306/src",
+                "/home/acsr/.platformio/lib/RingBuffer/src",
+                "/home/acsr/.platformio/lib/SD",
+                "/home/acsr/.platformio/lib/TFT_ID886/src",
+                "/home/acsr/.platformio/lib/TFT_ILI9341_ESP_ID5691",
+                "/home/acsr/.platformio/lib/TFT_eSPI",
+                "/home/acsr/.platformio/lib/Ticker",
+                "/home/acsr/.platformio/lib/U8g2/src",
+                "/home/acsr/.platformio/lib/rosserial_arduino",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                "/home/acsr/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/acsr/car_project/arduino/as5600_test/include",
+                    "/home/acsr/car_project/arduino/as5600_test/src",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                    "/home/acsr/car_project/arduino/as5600_test/.pio/libdeps/nano_every/SlowSoftI2CMaster",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/variants/nona4809",
+                    "/home/acsr/car_project/arduino/as5600_test/.pio/libdeps/nano_every/SoftI2CMaster/src",
+                    "/home/acsr/.platformio/lib/Adafruit BusIO",
+                    "/home/acsr/.platformio/lib/Adafruit GFX Library",
+                    "/home/acsr/.platformio/lib/Adafruit ST7735 and ST7789 Library",
+                    "/home/acsr/.platformio/lib/Adafruit Unified Sensor",
+                    "/home/acsr/.platformio/lib/Adafruit seesaw Library",
+                    "/home/acsr/.platformio/lib/DHT sensor library",
+                    "/home/acsr/.platformio/lib/ESP Async WebServer_ID306/src",
+                    "/home/acsr/.platformio/lib/RingBuffer/src",
+                    "/home/acsr/.platformio/lib/SD",
+                    "/home/acsr/.platformio/lib/TFT_ID886/src",
+                    "/home/acsr/.platformio/lib/TFT_ILI9341_ESP_ID5691",
+                    "/home/acsr/.platformio/lib/TFT_eSPI",
+                    "/home/acsr/.platformio/lib/Ticker",
+                    "/home/acsr/.platformio/lib/U8g2/src",
+                    "/home/acsr/.platformio/lib/rosserial_arduino",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                    "/home/acsr/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                    "/home/acsr/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "ARDUINO_AVR_NANO_EVERY",
+                "AVR_NANO_4809_328MODE",
+                "MILLIS_USE_TIMERB3",
+                "NO_EXTERNAL_I2C_PULLUP",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_MEGAAVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x0058",
+                "USB_PRODUCT=\"Arduino Nano Every\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/acsr/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega4809",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
